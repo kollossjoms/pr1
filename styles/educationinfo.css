@@ -1,0 +1,77 @@
+.education-info {
+    width: 268px;
+    height: 289px;
+}
+
+.education-info__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education-info__list-colome {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.education-info__list-item {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #000;
+    background: #fff;
+}
+
+.education-info__list-item.selected {
+    color: #fff;
+    background: #28D979;
+}
+
+.education-info__list-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-info__list-item-title {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.education-info__icon {
+    width: 11px;
+    height: 11px;
+}
+
+.education-info__list-item-tags {
+    display: flex;
+    flex-direction: column;
+    gap: -2px;
+}
+
+.education-info__list-item-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.education-info__list-item-tags-item {
+    font-size: 8px;
+    line-height: 150%;
+    color: #149063;
+}
+
+.education-info__list-item.selected .education-info__list-item-tags-item {
+    color: #EBF9F2;
+}
+
+.education-info__university {
+    font-size: 8px;
+    line-height: 150%;
+}

@@ -1,0 +1,58 @@
+.page {
+    padding: 15px 20px;
+}
+
+.block-1 {
+    height: 124px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.block-2 {
+    height: 359px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.block-3 {
+    height: 289px;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+}
+
+.card-black {
+    height: 92px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.header-text {
+    font-size: 14px;
+    font-weight: 150%;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.avatar-conteiner,
+.personal-info,
+.languages-info {
+    height: 100%;
+}
+
+.tag-and-mail {
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

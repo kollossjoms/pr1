@@ -1,0 +1,14 @@
+.mail-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-text {
+    color: #fff;
+}
+
+.mail {
+    color: #DDD;
+    font-size: 10px;
+    font-weight: 150%;
+}

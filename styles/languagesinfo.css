@@ -1,0 +1,41 @@
+.languages-info {
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+}
+
+.languages-info__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.languages-info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.languages-info__list.languages {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 104%;
+}
+
+.languages-info_progress {
+    background-color: #28D979;
+    height: 11px;
+    border-radius: 3px;
+}
+
+.languages-info_progress.progress0 {
+    width: 168px;
+}
+
+.languages-info_progress.progress1 {
+    width: 168px;
+}
+
+.languages-info_progress.progress2 {
+    width: 129px;
+}
